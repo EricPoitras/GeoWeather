@@ -1,0 +1,48 @@
+/* Fonts */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CSS Grid Dimensions */
+#section_content, #section_map{
+    height: calc(100vh - 46px);
+}
+.row{
+    height: 100%;
+}
+
+/* UI View Background */
+#section_content{
+    background-image: url("../assets/background1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Panel Forecast */
+#card_forecast{
+    position: fixed;
+    bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: -100px;
+    left: 50%;
+    width: 200px;
+}
+#card_forecast img{
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#container_forecast{
+    position: absolute;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0,0,0,1.0), rgba(255,255,255,0.6));
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
